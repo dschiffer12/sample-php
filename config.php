@@ -13,7 +13,7 @@ return [
     'assets_url' => '/vendor/hansschouten/phpagebuilder/dist',     
 
     'general' => [
-        'base_url' => 'https://starfish-app-9jlo3.ondigitalocean.app/',
+        'base_url' => '137.184.69.77',
         'language' => 'en',
         'assets_url' => '/assets',
         'uploads_url' => '/uploads'
