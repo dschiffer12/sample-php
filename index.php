@@ -1,14 +1,7 @@
 <?php
-require __DIR__ . '/vendor/autoload.php';
+require_once __DIR__ . '/vendor/autoload.php';
 
-use Cowsayphp\Farm;
+$config = require __DIR__ . '/config.php';
 
-header('Content-Type: text/plain');
-
-$text = "Set a message by adding ?message=<message here> to the URL";
-if(isset($_GET['message']) && $_GET['message'] != '') {
-	$text = htmlspecialchars($_GET['message']);
-}
-
-$cow = Farm::create(\Cowsayphp\Farm\Cow::class);
-echo $cow->say($text);
+$builder = new PHPageBuilder\PHPageBuilder($config);
+$builder->handleRequest();
