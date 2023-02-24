@@ -12,7 +12,7 @@ return [
      |
      */
     'general' => [
-        'base_url' => 'http://localhost',
+        'base_url' => 'https://starfish-app-9jlo3.ondigitalocean.app/',
         'language' => 'en',
         'assets_url' => '/assets',
         'uploads_url' => '/uploads'
@@ -30,10 +30,10 @@ return [
         'use_database' => true,
         'database' => [
             'driver'    => 'mysql',
-            'host'      => 'localhost',
-            'database'  => '',
-            'username'  => '',
-            'password'  => '',
+            'host'      => 'db-mysql-nyc1-36875-do-user-13473365-0.b.db.ondigitalocean.com',
+            'database'  => 'defaultdb',
+            'username'  => 'doadmin',
+            'password'  => 'AVNS_VB-Nfvh7l2Lh-y81uo4',
             'charset'   => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix'    => '',
@@ -55,7 +55,7 @@ return [
         'class' => PHPageBuilder\Modules\Auth\Auth::class,
         'url' => '/admin/auth',
         'username' => 'admin',
-        'password' => 'changethispassword'
+        'password' => 'password'
     ],
 
     /*
