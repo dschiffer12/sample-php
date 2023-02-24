@@ -3,7 +3,7 @@
         'name' => 'hansschouten/phpagebuilder',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '6bf2b60ac67d47dc6707e46e582bafc46f4f5518',
+        'reference' => '12be58edd0f37958d40e61698b6ed6758c5019d1',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'hansschouten/phpagebuilder' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '6bf2b60ac67d47dc6707e46e582bafc46f4f5518',
+            'reference' => '12be58edd0f37958d40e61698b6ed6758c5019d1',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
